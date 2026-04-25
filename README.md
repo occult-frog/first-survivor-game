@@ -6,3 +6,4 @@ I made a few modifications which are:
 2. Added a timer that counts the number of seconds you survived and displays it on the game over screen.
 
 Thank you to GDQuest for the great tutorial.
+Also thanks to BartoszB for the Godot Super Wakatime plugin.
