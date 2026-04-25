@@ -12,7 +12,7 @@ func _on_timer_timeout():
 	spawn_mob()
 	
 
-func _on_player_health_depleted() -> void:
+func _on_player_health_depleted():
 	%GameOver.visible = true
 	var t = scoreVariable.survived_time
 	$GameOver/ColorRect/Label.text = "Game Over\nTime Survived: %s seconds"%[t]

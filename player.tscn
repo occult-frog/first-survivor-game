@@ -4,6 +4,7 @@
 [ext_resource type="Script" uid="uid://yh2ao5or56lq" path="res://player.gd" id="1_onrkg"]
 [ext_resource type="PackedScene" uid="uid://du5i8r7jdycua" path="res://gun.tscn" id="3_i3pqv"]
 [ext_resource type="PackedScene" uid="uid://x7p5futs860j" path="res://gun2.tscn" id="4_hqtel"]
+[ext_resource type="PackedScene" uid="uid://2a0cqcyyvo6b" path="res://gun3.tscn" id="5_sweqy"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_onrkg"]
 radius = 32.01562
@@ -39,6 +40,8 @@ shape = SubResource("CircleShape2D_onrkg")
 position = Vector2(27, 0)
 
 [node name="gun2" parent="." unique_id=2045572317 instance=ExtResource("4_hqtel")]
+
+[node name="Gun3" parent="." unique_id=325371415 instance=ExtResource("5_sweqy")]
 
 [node name="HurtBox" type="Area2D" parent="." unique_id=1927554389]
 unique_name_in_owner = true
